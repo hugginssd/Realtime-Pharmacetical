@@ -104,5 +104,70 @@ namespace Realtime_Pharmaceutical.DAL
             }
             return dt;
         }
+
+        public void SelectCustomerIDAndUserID(ComboBox cmb, ComboBox cmb1)
+        {
+            SqlConnection con = new SqlConnection(_con.connection);
+            try
+            {
+            Dictionary<int, String> SiteSource = new Dictionary<int,String>();
+            SqlDataReader dr = null;
+                string sql = "SELECT [CUSTOMERID]" +
+                                ",[CUSTOMERNAME]" +
+                                ",[ADDRESS]" +
+                                ",[CONTACT]" +
+                                ",[TYPE]" +
+                            "FROM[dbo].[Customers]";
+                SqlCommand cmd = new SqlCommand(sql, con);
+                dr = cmd.ExecuteReader();
+                while (dr.HasRows)
+                {
+                    SiteSource.Add(Convert.ToInt32(dr["CUSTOMERID"]), dr["CUSTOMERNAME"].ToString());
+                }
+                cmb.DataSource = new BindingSource(SiteSource, null);
+                cmb.DisplayMember = "Value";
+                cmb.ValueMember = "Key";
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString(),"Data Access Error",MessageBoxButtons.OK,MessageBoxIcon.Error,MessageBoxDefaultButton.Button1);
+            }
+            finally
+            {
+                con.Close();
+            }
+            //users
+            try
+            {
+            Dictionary<int, String> SiteSource = new Dictionary<int, String>();
+            SqlDataReader dr = null;
+                string sql = "SELECT [USERID]"+
+                                      ",[FIRSTNAME]"+
+                                      ",[LASTNAME]"+
+                                      ",[USERNAME]"+
+                                      ",[PASSWORD]"+
+                                  "FROM[dbo].[Users]";
+                SqlCommand cmd = new SqlCommand(sql, con);
+                dr = cmd.ExecuteReader();
+                SiteSource.Clear();
+                while (dr.HasRows)
+                {
+                    SiteSource.Add(Convert.ToInt32(dr["USERID"]), dr["USERNAME"].ToString());
+                }
+                cmb1.DataSource = new BindingSource(SiteSource, null);
+                cmb1.DisplayMember = "Value";
+                cmb1.ValueMember = "Key";
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString(), "Data Access Error", MessageBoxButtons.OK, MessageBoxIcon.Error, MessageBoxDefaultButton.Button1);
+            }
+            finally
+            {
+                con.Close();
+            }
+        }
+
+
     }
 }

@@ -18,3 +18,4 @@ C:\Users\user\source\repos\Realtime Pharmaceutical\Realtime Pharmaceutical\obj\D
 C:\Users\user\source\repos\Realtime Pharmaceutical\Realtime Pharmaceutical\obj\Debug\Realtime Pharmaceutical.csproj.CopyComplete
 C:\Users\user\source\repos\Realtime Pharmaceutical\Realtime Pharmaceutical\obj\Debug\Realtime Pharmaceutical.exe
 C:\Users\user\source\repos\Realtime Pharmaceutical\Realtime Pharmaceutical\obj\Debug\Realtime Pharmaceutical.pdb
+C:\Users\user\source\repos\Realtime Pharmaceutical\Realtime Pharmaceutical\obj\Debug\Realtime Pharmaceutical.csprojResolveAssemblyReference.cache

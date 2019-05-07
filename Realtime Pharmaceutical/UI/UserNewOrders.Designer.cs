@@ -290,6 +290,7 @@
             this.Controls.Add(this.label1);
             this.Name = "UserNewOrders";
             this.Size = new System.Drawing.Size(1004, 436);
+            this.Load += new System.EventHandler(this.UserNewOrders_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

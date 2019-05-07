@@ -61,9 +61,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BLL\ManufacturersBLL.cs" />
     <Compile Include="BLL\OrderDetailsBLL.cs" />
     <Compile Include="BLL\OrdersBLL.cs" />
     <Compile Include="DAL\Connection.cs" />
+    <Compile Include="DAL\ManufacturersDAL.cs" />
     <Compile Include="DAL\OrderDetailsDAL.cs" />
     <Compile Include="DAL\OrdersDAL.cs" />
     <Compile Include="UI\FrmMain.cs">
