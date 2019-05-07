@@ -29,29 +29,33 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.txtID = new Windows.Forms.HintTextBox(this.components);
+            this.TxtCustomerID = new Windows.Forms.HintTextBox(this.components);
             this.BtnReset = new System.Windows.Forms.Button();
             this.BtnCreate = new System.Windows.Forms.Button();
-            this.txtDepartment = new Windows.Forms.HintTextBox(this.components);
+            this.TxtContact = new Windows.Forms.HintTextBox(this.components);
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.txtDescription = new Windows.Forms.HintTextBox(this.components);
+            this.TxtAddress = new Windows.Forms.HintTextBox(this.components);
             this.label1 = new System.Windows.Forms.Label();
+            this.TxtCustomerName = new Windows.Forms.HintTextBox(this.components);
+            this.CmbCustomerType = new System.Windows.Forms.ComboBox();
+            this.lblCustomerType = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
-            // txtID
+            // TxtCustomerID
             // 
-            this.txtID.EnterToTab = false;
-            this.txtID.Font = new System.Drawing.Font("Humanst521 BT", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtID.ForeColor = System.Drawing.Color.Gray;
-            this.txtID.HintColor = System.Drawing.Color.Gray;
-            this.txtID.HintValue = "ID";
-            this.txtID.Location = new System.Drawing.Point(25, 76);
-            this.txtID.Name = "txtID";
-            this.txtID.Size = new System.Drawing.Size(275, 23);
-            this.txtID.TabIndex = 22;
-            this.txtID.TextForeColor = System.Drawing.Color.Black;
-            this.txtID.Value = "";
+            this.TxtCustomerID.EnterToTab = false;
+            this.TxtCustomerID.Font = new System.Drawing.Font("Humanst521 BT", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TxtCustomerID.ForeColor = System.Drawing.Color.Gray;
+            this.TxtCustomerID.HintColor = System.Drawing.Color.Gray;
+            this.TxtCustomerID.HintValue = "CustomerID";
+            this.TxtCustomerID.Location = new System.Drawing.Point(25, 95);
+            this.TxtCustomerID.Name = "TxtCustomerID";
+            this.TxtCustomerID.Size = new System.Drawing.Size(275, 23);
+            this.TxtCustomerID.TabIndex = 22;
+            this.TxtCustomerID.Text = "CustomerID";
+            this.TxtCustomerID.TextForeColor = System.Drawing.Color.Black;
+            this.TxtCustomerID.Value = "";
             // 
             // BtnReset
             // 
@@ -59,12 +63,13 @@
             this.BtnReset.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnReset.Font = new System.Drawing.Font("Humanst521 BT", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnReset.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.BtnReset.Location = new System.Drawing.Point(197, 317);
+            this.BtnReset.Location = new System.Drawing.Point(197, 381);
             this.BtnReset.Name = "BtnReset";
             this.BtnReset.Size = new System.Drawing.Size(103, 33);
             this.BtnReset.TabIndex = 21;
             this.BtnReset.Text = "RESET";
             this.BtnReset.UseVisualStyleBackColor = false;
+            this.BtnReset.Click += new System.EventHandler(this.BtnReset_Click);
             // 
             // BtnCreate
             // 
@@ -72,51 +77,54 @@
             this.BtnCreate.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnCreate.Font = new System.Drawing.Font("Humanst521 BT", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnCreate.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.BtnCreate.Location = new System.Drawing.Point(24, 317);
+            this.BtnCreate.Location = new System.Drawing.Point(24, 381);
             this.BtnCreate.Name = "BtnCreate";
             this.BtnCreate.Size = new System.Drawing.Size(103, 33);
             this.BtnCreate.TabIndex = 20;
             this.BtnCreate.Text = "CREATE";
             this.BtnCreate.UseVisualStyleBackColor = false;
+            this.BtnCreate.Click += new System.EventHandler(this.BtnCreate_Click);
             // 
-            // txtDepartment
+            // TxtContact
             // 
-            this.txtDepartment.EnterToTab = false;
-            this.txtDepartment.Font = new System.Drawing.Font("Humanst521 BT", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtDepartment.ForeColor = System.Drawing.Color.Gray;
-            this.txtDepartment.HintColor = System.Drawing.Color.Gray;
-            this.txtDepartment.HintValue = "Department";
-            this.txtDepartment.Location = new System.Drawing.Point(24, 108);
-            this.txtDepartment.Name = "txtDepartment";
-            this.txtDepartment.Size = new System.Drawing.Size(275, 23);
-            this.txtDepartment.TabIndex = 19;
-            this.txtDepartment.TextForeColor = System.Drawing.Color.Black;
-            this.txtDepartment.Value = "";
+            this.TxtContact.EnterToTab = false;
+            this.TxtContact.Font = new System.Drawing.Font("Humanst521 BT", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TxtContact.ForeColor = System.Drawing.Color.Gray;
+            this.TxtContact.HintColor = System.Drawing.Color.Gray;
+            this.TxtContact.HintValue = "Contact";
+            this.TxtContact.Location = new System.Drawing.Point(24, 189);
+            this.TxtContact.Name = "TxtContact";
+            this.TxtContact.Size = new System.Drawing.Size(275, 23);
+            this.TxtContact.TabIndex = 19;
+            this.TxtContact.Text = "Contact";
+            this.TxtContact.TextForeColor = System.Drawing.Color.Black;
+            this.TxtContact.Value = "";
             // 
             // dataGridView1
             // 
             this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.Control;
             this.dataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(306, 78);
+            this.dataGridView1.Location = new System.Drawing.Point(305, 94);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(515, 272);
+            this.dataGridView1.Size = new System.Drawing.Size(613, 283);
             this.dataGridView1.TabIndex = 18;
             // 
-            // txtDescription
+            // TxtAddress
             // 
-            this.txtDescription.EnterToTab = false;
-            this.txtDescription.Font = new System.Drawing.Font("Humanst521 BT", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtDescription.ForeColor = System.Drawing.Color.Gray;
-            this.txtDescription.HintColor = System.Drawing.Color.Gray;
-            this.txtDescription.HintValue = "Description";
-            this.txtDescription.Location = new System.Drawing.Point(24, 143);
-            this.txtDescription.Multiline = true;
-            this.txtDescription.Name = "txtDescription";
-            this.txtDescription.Size = new System.Drawing.Size(276, 168);
-            this.txtDescription.TabIndex = 17;
-            this.txtDescription.TextForeColor = System.Drawing.Color.Black;
-            this.txtDescription.Value = "";
+            this.TxtAddress.EnterToTab = false;
+            this.TxtAddress.Font = new System.Drawing.Font("Humanst521 BT", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TxtAddress.ForeColor = System.Drawing.Color.Gray;
+            this.TxtAddress.HintColor = System.Drawing.Color.Gray;
+            this.TxtAddress.HintValue = "Address";
+            this.TxtAddress.Location = new System.Drawing.Point(24, 264);
+            this.TxtAddress.Multiline = true;
+            this.TxtAddress.Name = "TxtAddress";
+            this.TxtAddress.Size = new System.Drawing.Size(276, 111);
+            this.TxtAddress.TabIndex = 17;
+            this.TxtAddress.Text = "Address";
+            this.TxtAddress.TextForeColor = System.Drawing.Color.Black;
+            this.TxtAddress.Value = "";
             // 
             // label1
             // 
@@ -129,16 +137,52 @@
             this.label1.TabIndex = 16;
             this.label1.Text = "New Customers";
             // 
+            // TxtCustomerName
+            // 
+            this.TxtCustomerName.EnterToTab = false;
+            this.TxtCustomerName.Font = new System.Drawing.Font("Humanst521 BT", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TxtCustomerName.ForeColor = System.Drawing.Color.Gray;
+            this.TxtCustomerName.HintColor = System.Drawing.Color.Gray;
+            this.TxtCustomerName.HintValue = "Customer name";
+            this.TxtCustomerName.Location = new System.Drawing.Point(24, 144);
+            this.TxtCustomerName.Name = "TxtCustomerName";
+            this.TxtCustomerName.Size = new System.Drawing.Size(275, 23);
+            this.TxtCustomerName.TabIndex = 23;
+            this.TxtCustomerName.Text = "Customer name";
+            this.TxtCustomerName.TextForeColor = System.Drawing.Color.Black;
+            this.TxtCustomerName.Value = "";
+            // 
+            // CmbCustomerType
+            // 
+            this.CmbCustomerType.FormattingEnabled = true;
+            this.CmbCustomerType.Location = new System.Drawing.Point(24, 228);
+            this.CmbCustomerType.Name = "CmbCustomerType";
+            this.CmbCustomerType.Size = new System.Drawing.Size(254, 21);
+            this.CmbCustomerType.TabIndex = 24;
+            // 
+            // lblCustomerType
+            // 
+            this.lblCustomerType.Font = new System.Drawing.Font("Humanst521 BT", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCustomerType.ForeColor = System.Drawing.SystemColors.AppWorkspace;
+            this.lblCustomerType.Location = new System.Drawing.Point(27, 231);
+            this.lblCustomerType.Name = "lblCustomerType";
+            this.lblCustomerType.Size = new System.Drawing.Size(231, 15);
+            this.lblCustomerType.TabIndex = 25;
+            this.lblCustomerType.Text = "Customer type";
+            // 
             // UserNewCustomers
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.txtID);
+            this.Controls.Add(this.lblCustomerType);
+            this.Controls.Add(this.CmbCustomerType);
+            this.Controls.Add(this.TxtCustomerName);
+            this.Controls.Add(this.TxtCustomerID);
             this.Controls.Add(this.BtnReset);
             this.Controls.Add(this.BtnCreate);
-            this.Controls.Add(this.txtDepartment);
+            this.Controls.Add(this.TxtContact);
             this.Controls.Add(this.dataGridView1);
-            this.Controls.Add(this.txtDescription);
+            this.Controls.Add(this.TxtAddress);
             this.Controls.Add(this.label1);
             this.Name = "UserNewCustomers";
             this.Size = new System.Drawing.Size(944, 462);
@@ -150,12 +194,15 @@
 
         #endregion
 
-        private Windows.Forms.HintTextBox txtID;
+        private Windows.Forms.HintTextBox TxtCustomerID;
         private System.Windows.Forms.Button BtnReset;
         private System.Windows.Forms.Button BtnCreate;
-        private Windows.Forms.HintTextBox txtDepartment;
+        private Windows.Forms.HintTextBox TxtContact;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private Windows.Forms.HintTextBox txtDescription;
+        private Windows.Forms.HintTextBox TxtAddress;
         private System.Windows.Forms.Label label1;
+        private Windows.Forms.HintTextBox TxtCustomerName;
+        private System.Windows.Forms.ComboBox CmbCustomerType;
+        private System.Windows.Forms.Label lblCustomerType;
     }
 }
