@@ -31,6 +31,9 @@ namespace Realtime_Pharmaceutical.UI
                 if (IsSuccess)
                 {   
                     MessageBox.Show("Successfully created","Confirm",MessageBoxButtons.OK,MessageBoxIcon.Information,MessageBoxDefaultButton.Button1);
+                    DataTable dt = new DataTable();
+                    dt = mdal.Select();
+                    dataGridView1.DataSource = dt;
                 }   
                 else
                 {
