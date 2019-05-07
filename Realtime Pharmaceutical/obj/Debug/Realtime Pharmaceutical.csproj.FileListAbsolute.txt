@@ -9,7 +9,6 @@ C:\Users\user\source\repos\Realtime Pharmaceutical\Realtime Pharmaceutical\obj\D
 C:\Users\user\source\repos\Realtime Pharmaceutical\Realtime Pharmaceutical\obj\Debug\Realtime_Pharmaceutical.FrmMain.resources
 C:\Users\user\source\repos\Realtime Pharmaceutical\Realtime Pharmaceutical\obj\Debug\Realtime_Pharmaceutical.UI.UserNewCustomers.resources
 C:\Users\user\source\repos\Realtime Pharmaceutical\Realtime Pharmaceutical\obj\Debug\Realtime_Pharmaceutical.UI.UserManufacturers.resources
-C:\Users\user\source\repos\Realtime Pharmaceutical\Realtime Pharmaceutical\obj\Debug\Realtime Pharmaceutical.csprojResolveAssemblyReference.cache
 C:\Users\user\source\repos\Realtime Pharmaceutical\Realtime Pharmaceutical\bin\Debug\CheckComboBox.dll
 C:\Users\user\source\repos\Realtime Pharmaceutical\Realtime Pharmaceutical\bin\Debug\HintTextBox.dll
 C:\Users\user\source\repos\Realtime Pharmaceutical\Realtime Pharmaceutical\bin\Debug\Mantin.Controls.Wpf.EnumComboBox.dll
@@ -17,3 +16,5 @@ C:\Users\user\source\repos\Realtime Pharmaceutical\Realtime Pharmaceutical\bin\D
 C:\Users\user\source\repos\Realtime Pharmaceutical\Realtime Pharmaceutical\bin\Debug\Mantin.Controls.Wpf.EnumComboBox.pdb
 C:\Users\user\source\repos\Realtime Pharmaceutical\Realtime Pharmaceutical\bin\Debug\Windows.Forms.HintTextBox.pdb
 C:\Users\user\source\repos\Realtime Pharmaceutical\Realtime Pharmaceutical\obj\Debug\Realtime Pharmaceutical.csproj.CopyComplete
+C:\Users\user\source\repos\Realtime Pharmaceutical\Realtime Pharmaceutical\obj\Debug\Realtime_Pharmaceutical.UI.UserDashboard.resources
+C:\Users\user\source\repos\Realtime Pharmaceutical\Realtime Pharmaceutical\obj\Debug\Realtime Pharmaceutical.csprojResolveAssemblyReference.cache
