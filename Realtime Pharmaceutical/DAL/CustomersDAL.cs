@@ -46,7 +46,7 @@ namespace Realtime_Pharmaceutical.DAL
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.ToString(),"Data Access Error",MessageBoxButtons.OK,MessageBoxIcon,MessageBoxDefaultButton.Button1);
+                MessageBox.Show(ex.ToString(),"Data Access Error",MessageBoxButtons.OK,MessageBoxIcon.Error,MessageBoxDefaultButton.Button1);
             }finally
             {
                 con.Close();
