@@ -1,0 +1,8 @@
+C:\Users\user\source\repos\Realtime Pharmaceutical\Realtime Pharmaceutical\bin\Debug\Realtime Pharmaceutical.exe.config
+C:\Users\user\source\repos\Realtime Pharmaceutical\Realtime Pharmaceutical\bin\Debug\Realtime Pharmaceutical.exe
+C:\Users\user\source\repos\Realtime Pharmaceutical\Realtime Pharmaceutical\bin\Debug\Realtime Pharmaceutical.pdb
+C:\Users\user\source\repos\Realtime Pharmaceutical\Realtime Pharmaceutical\obj\Debug\Realtime_Pharmaceutical.Properties.Resources.resources
+C:\Users\user\source\repos\Realtime Pharmaceutical\Realtime Pharmaceutical\obj\Debug\Realtime Pharmaceutical.csproj.GenerateResource.cache
+C:\Users\user\source\repos\Realtime Pharmaceutical\Realtime Pharmaceutical\obj\Debug\Realtime Pharmaceutical.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\Realtime Pharmaceutical\Realtime Pharmaceutical\obj\Debug\Realtime Pharmaceutical.exe
+C:\Users\user\source\repos\Realtime Pharmaceutical\Realtime Pharmaceutical\obj\Debug\Realtime Pharmaceutical.pdb
