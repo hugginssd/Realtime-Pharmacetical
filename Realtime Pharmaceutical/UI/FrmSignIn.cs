@@ -1,4 +1,5 @@
-﻿using Realtime_Pharmaceutical.DAL;
+﻿using Realtime_Pharmaceutical.BLL;
+using Realtime_Pharmaceutical.DAL;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -22,7 +23,19 @@ namespace Realtime_Pharmaceutical.UI
         UserBLL ubll = new UserBLL();
         private void BtnSignIn_Click(object sender, EventArgs e)
         {
-
+            ubll.UserName = txtUsername.Text;
+            ubll.Password = txtPassword.Text;
+            bool IsSuccess = udal.Search(ubll);
+            if (IsSuccess)
+            {
+                FrmMain frmMain = new FrmMain();
+                frmMain.Show();
+            }
+            else
+            {
+                MessageBox.Show("Invalid login credentials","SignIn",MessageBoxButtons.OK,MessageBoxIcon.Error,MessageBoxDefaultButton.Button1);
+                return;
+            }
         }
 
         private void BtnCancel_Click(object sender, EventArgs e)
@@ -32,6 +45,11 @@ namespace Realtime_Pharmaceutical.UI
 
         private void FrmSignIn_Load(object sender, EventArgs e)
         {
+        }
+
+        public void Reset()
+        {
+
         }
     }
 }

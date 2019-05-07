@@ -71,7 +71,7 @@
     <Compile Include="DAL\ManufacturersDAL.cs" />
     <Compile Include="DAL\OrderDetailsDAL.cs" />
     <Compile Include="DAL\OrdersDAL.cs" />
-    <Compile Include="DAL\UserBLL.cs" />
+    <Compile Include="BLL\UserBLL.cs" />
     <Compile Include="DAL\UserDAL.cs" />
     <Compile Include="UI\FrmMain.cs">
       <SubType>Form</SubType>

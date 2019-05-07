@@ -4,8 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Realtime_Pharmaceutical.DAL
-{
+namespace Realtime_Pharmaceutical.BLL
+{   
     class UserBLL
     {
         public int UserID { get; set; }
