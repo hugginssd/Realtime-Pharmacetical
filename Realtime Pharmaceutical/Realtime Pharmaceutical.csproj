@@ -61,6 +61,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BLL\OrderDetailsBLL.cs" />
+    <Compile Include="BLL\OrdersBLL.cs" />
+    <Compile Include="DAL\Connection.cs" />
+    <Compile Include="DAL\OrderDetailsDAL.cs" />
+    <Compile Include="DAL\OrdersDAL.cs" />
     <Compile Include="UI\FrmMain.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -133,6 +138,9 @@
     <EmbeddedResource Include="UI\UserNewCustomers.resx">
       <DependentUpon>UserNewCustomers.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="UI\UserNewOrders.resx">
+      <DependentUpon>UserNewOrders.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -147,15 +155,15 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="BLL\" />
-    <Folder Include="DAL\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <None Include="Resources\bottom bar.PNG" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\swift logo.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Female Profile_50px.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

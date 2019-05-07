@@ -1,20 +1,20 @@
 C:\Users\user\source\repos\Realtime Pharmaceutical\Realtime Pharmaceutical\bin\Debug\Realtime Pharmaceutical.exe.config
 C:\Users\user\source\repos\Realtime Pharmaceutical\Realtime Pharmaceutical\bin\Debug\Realtime Pharmaceutical.exe
 C:\Users\user\source\repos\Realtime Pharmaceutical\Realtime Pharmaceutical\bin\Debug\Realtime Pharmaceutical.pdb
-C:\Users\user\source\repos\Realtime Pharmaceutical\Realtime Pharmaceutical\obj\Debug\Realtime_Pharmaceutical.Properties.Resources.resources
-C:\Users\user\source\repos\Realtime Pharmaceutical\Realtime Pharmaceutical\obj\Debug\Realtime Pharmaceutical.csproj.GenerateResource.cache
-C:\Users\user\source\repos\Realtime Pharmaceutical\Realtime Pharmaceutical\obj\Debug\Realtime Pharmaceutical.csproj.CoreCompileInputs.cache
-C:\Users\user\source\repos\Realtime Pharmaceutical\Realtime Pharmaceutical\obj\Debug\Realtime Pharmaceutical.exe
-C:\Users\user\source\repos\Realtime Pharmaceutical\Realtime Pharmaceutical\obj\Debug\Realtime Pharmaceutical.pdb
-C:\Users\user\source\repos\Realtime Pharmaceutical\Realtime Pharmaceutical\obj\Debug\Realtime_Pharmaceutical.FrmMain.resources
-C:\Users\user\source\repos\Realtime Pharmaceutical\Realtime Pharmaceutical\obj\Debug\Realtime_Pharmaceutical.UI.UserNewCustomers.resources
-C:\Users\user\source\repos\Realtime Pharmaceutical\Realtime Pharmaceutical\obj\Debug\Realtime_Pharmaceutical.UI.UserManufacturers.resources
 C:\Users\user\source\repos\Realtime Pharmaceutical\Realtime Pharmaceutical\bin\Debug\CheckComboBox.dll
 C:\Users\user\source\repos\Realtime Pharmaceutical\Realtime Pharmaceutical\bin\Debug\HintTextBox.dll
 C:\Users\user\source\repos\Realtime Pharmaceutical\Realtime Pharmaceutical\bin\Debug\Mantin.Controls.Wpf.EnumComboBox.dll
 C:\Users\user\source\repos\Realtime Pharmaceutical\Realtime Pharmaceutical\bin\Debug\Windows.Forms.HintTextBox.dll
 C:\Users\user\source\repos\Realtime Pharmaceutical\Realtime Pharmaceutical\bin\Debug\Mantin.Controls.Wpf.EnumComboBox.pdb
 C:\Users\user\source\repos\Realtime Pharmaceutical\Realtime Pharmaceutical\bin\Debug\Windows.Forms.HintTextBox.pdb
-C:\Users\user\source\repos\Realtime Pharmaceutical\Realtime Pharmaceutical\obj\Debug\Realtime Pharmaceutical.csproj.CopyComplete
+C:\Users\user\source\repos\Realtime Pharmaceutical\Realtime Pharmaceutical\obj\Debug\Realtime_Pharmaceutical.FrmMain.resources
+C:\Users\user\source\repos\Realtime Pharmaceutical\Realtime Pharmaceutical\obj\Debug\Realtime_Pharmaceutical.Properties.Resources.resources
 C:\Users\user\source\repos\Realtime Pharmaceutical\Realtime Pharmaceutical\obj\Debug\Realtime_Pharmaceutical.UI.UserDashboard.resources
-C:\Users\user\source\repos\Realtime Pharmaceutical\Realtime Pharmaceutical\obj\Debug\Realtime Pharmaceutical.csprojResolveAssemblyReference.cache
+C:\Users\user\source\repos\Realtime Pharmaceutical\Realtime Pharmaceutical\obj\Debug\Realtime_Pharmaceutical.UI.UserManufacturers.resources
+C:\Users\user\source\repos\Realtime Pharmaceutical\Realtime Pharmaceutical\obj\Debug\Realtime_Pharmaceutical.UI.UserNewCustomers.resources
+C:\Users\user\source\repos\Realtime Pharmaceutical\Realtime Pharmaceutical\obj\Debug\Realtime_Pharmaceutical.UI.UserNewOrders.resources
+C:\Users\user\source\repos\Realtime Pharmaceutical\Realtime Pharmaceutical\obj\Debug\Realtime Pharmaceutical.csproj.GenerateResource.cache
+C:\Users\user\source\repos\Realtime Pharmaceutical\Realtime Pharmaceutical\obj\Debug\Realtime Pharmaceutical.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\Realtime Pharmaceutical\Realtime Pharmaceutical\obj\Debug\Realtime Pharmaceutical.csproj.CopyComplete
+C:\Users\user\source\repos\Realtime Pharmaceutical\Realtime Pharmaceutical\obj\Debug\Realtime Pharmaceutical.exe
+C:\Users\user\source\repos\Realtime Pharmaceutical\Realtime Pharmaceutical\obj\Debug\Realtime Pharmaceutical.pdb

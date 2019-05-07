@@ -73,6 +73,16 @@ namespace Realtime_Pharmaceutical.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Female_Profile_50px {
+            get {
+                object obj = ResourceManager.GetObject("Female Profile_50px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap swift_logo {
             get {
                 object obj = ResourceManager.GetObject("swift logo", resourceCulture);
