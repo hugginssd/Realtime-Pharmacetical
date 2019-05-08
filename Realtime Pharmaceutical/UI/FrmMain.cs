@@ -49,6 +49,8 @@ namespace Realtime_Pharmaceutical
         {
             sidePanel.Location = new Point(0, 295);
             sidePanel.BringToFront();
+            userNewProducts.Visible = true;
+            userNewProducts.BringToFront();
         }
 
         private void BtnInvoices_Click(object sender, EventArgs e)

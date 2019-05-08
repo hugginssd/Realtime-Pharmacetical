@@ -54,6 +54,7 @@
             this.userNewCustomers = new Realtime_Pharmaceutical.UI.UserNewCustomers();
             this.userNewOrders = new Realtime_Pharmaceutical.UI.UserNewOrders();
             this.userDashboard = new Realtime_Pharmaceutical.UI.UserDashboard();
+            this.userNewProducts = new Realtime_Pharmaceutical.UI.UserNewProducts();
             this.panel4.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -390,11 +391,19 @@
             this.userDashboard.Size = new System.Drawing.Size(1001, 498);
             this.userDashboard.TabIndex = 8;
             // 
+            // userNewProducts
+            // 
+            this.userNewProducts.Location = new System.Drawing.Point(200, 40);
+            this.userNewProducts.Name = "userNewProducts";
+            this.userNewProducts.Size = new System.Drawing.Size(1001, 479);
+            this.userNewProducts.TabIndex = 12;
+            // 
             // FrmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1201, 540);
+            this.Controls.Add(this.userNewProducts);
             this.Controls.Add(this.userNewSystemUsers);
             this.Controls.Add(this.userNewCustomers);
             this.Controls.Add(this.userNewOrders);
@@ -450,6 +459,7 @@
         private UI.UserNewOrders userNewOrders;
         private UI.UserNewCustomers userNewCustomers;
         private UI.UserNewSystemUsers userNewSystemUsers;
+        private UI.UserNewProducts userNewProducts;
     }
 }
 
