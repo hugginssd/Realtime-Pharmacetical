@@ -78,6 +78,8 @@
     <Compile Include="BLL\UserBLL.cs" />
     <Compile Include="DAL\ProductsDAL.cs" />
     <Compile Include="DAL\UserDAL.cs" />
+    <Compile Include="SpikeDetection\DATA\ConsoleAPP\ProductSalesData.cs" />
+    <Compile Include="SpikeDetection\DATA\ConsoleAPP\ProductSalesPrediction.cs" />
     <Compile Include="UI\FrmMain.cs">
       <SubType>Form</SubType>
     </Compile>
