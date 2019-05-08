@@ -50,7 +50,8 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel5 = new System.Windows.Forms.Panel();
             this.label5 = new System.Windows.Forms.Label();
-            this.userDashboard1 = new Realtime_Pharmaceutical.UI.UserDashboard();
+            this.userDashboard = new Realtime_Pharmaceutical.UI.UserDashboard();
+            this.userNewOrders = new Realtime_Pharmaceutical.UI.UserNewOrders();
             this.panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel1.SuspendLayout();
@@ -359,22 +360,30 @@
             this.label5.TabIndex = 8;
             this.label5.Text = "Developed by Mambo Chami";
             // 
-            // userDashboard1
+            // userDashboard
             // 
-            this.userDashboard1.Location = new System.Drawing.Point(200, 42);
-            this.userDashboard1.Name = "userDashboard1";
-            this.userDashboard1.Size = new System.Drawing.Size(1001, 498);
-            this.userDashboard1.TabIndex = 8;
+            this.userDashboard.Location = new System.Drawing.Point(200, 42);
+            this.userDashboard.Name = "userDashboard";
+            this.userDashboard.Size = new System.Drawing.Size(1001, 498);
+            this.userDashboard.TabIndex = 8;
+            // 
+            // userNewOrders
+            // 
+            this.userNewOrders.Location = new System.Drawing.Point(200, 42);
+            this.userNewOrders.Name = "userNewOrders";
+            this.userNewOrders.Size = new System.Drawing.Size(1004, 477);
+            this.userNewOrders.TabIndex = 9;
             // 
             // FrmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1201, 540);
+            this.Controls.Add(this.userNewOrders);
             this.Controls.Add(this.panel5);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel2);
-            this.Controls.Add(this.userDashboard1);
+            this.Controls.Add(this.userDashboard);
             this.Name = "FrmMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmMain";
@@ -418,7 +427,8 @@
         private System.Windows.Forms.Button btnExit;
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.Label label5;
-        private UI.UserDashboard userDashboard1;
+        private UI.UserDashboard userDashboard;
+        private UI.UserNewOrders userNewOrders;
     }
 }
 

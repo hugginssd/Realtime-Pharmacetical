@@ -206,7 +206,7 @@
             this.label17.Font = new System.Drawing.Font("Humanst521 BT", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label17.Location = new System.Drawing.Point(3, 200);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(55, 20);
+            this.label17.Size = new System.Drawing.Size(56, 20);
             this.label17.TabIndex = 30;
             this.label17.Text = "Business";
             this.label17.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -216,9 +216,9 @@
             this.lblDrug3City3.AutoSize = true;
             this.lblDrug3City3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblDrug3City3.Font = new System.Drawing.Font("Humanst521 BT", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDrug3City3.Location = new System.Drawing.Point(64, 76);
+            this.lblDrug3City3.Location = new System.Drawing.Point(65, 76);
             this.lblDrug3City3.Name = "lblDrug3City3";
-            this.lblDrug3City3.Size = new System.Drawing.Size(84, 20);
+            this.lblDrug3City3.Size = new System.Drawing.Size(85, 20);
             this.lblDrug3City3.TabIndex = 25;
             this.lblDrug3City3.Text = "_drug_3";
             this.lblDrug3City3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -228,9 +228,9 @@
             this.lblDrug2City3.AutoSize = true;
             this.lblDrug2City3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblDrug2City3.Font = new System.Drawing.Font("Humanst521 BT", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDrug2City3.Location = new System.Drawing.Point(64, 48);
+            this.lblDrug2City3.Location = new System.Drawing.Point(65, 48);
             this.lblDrug2City3.Name = "lblDrug2City3";
-            this.lblDrug2City3.Size = new System.Drawing.Size(84, 20);
+            this.lblDrug2City3.Size = new System.Drawing.Size(85, 20);
             this.lblDrug2City3.TabIndex = 23;
             this.lblDrug2City3.Text = "_drug_2";
             this.lblDrug2City3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -240,9 +240,9 @@
             this.lblDrug1City3.AutoSize = true;
             this.lblDrug1City3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblDrug1City3.Font = new System.Drawing.Font("Humanst521 BT", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDrug1City3.Location = new System.Drawing.Point(64, 20);
+            this.lblDrug1City3.Location = new System.Drawing.Point(65, 20);
             this.lblDrug1City3.Name = "lblDrug1City3";
-            this.lblDrug1City3.Size = new System.Drawing.Size(84, 20);
+            this.lblDrug1City3.Size = new System.Drawing.Size(85, 20);
             this.lblDrug1City3.TabIndex = 21;
             this.lblDrug1City3.Text = "_drug_1";
             this.lblDrug1City3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -254,7 +254,7 @@
             this.label9.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label9.Location = new System.Drawing.Point(3, 20);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(55, 20);
+            this.label9.Size = new System.Drawing.Size(56, 20);
             this.label9.TabIndex = 16;
             // 
             // label11
@@ -264,7 +264,7 @@
             this.label11.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label11.Location = new System.Drawing.Point(3, 76);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(55, 20);
+            this.label11.Size = new System.Drawing.Size(56, 20);
             this.label11.TabIndex = 20;
             // 
             // label13
@@ -274,7 +274,7 @@
             this.label13.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label13.Location = new System.Drawing.Point(3, 48);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(55, 20);
+            this.label13.Size = new System.Drawing.Size(56, 20);
             this.label13.TabIndex = 18;
             // 
             // label14
@@ -284,7 +284,7 @@
             this.label14.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label14.Location = new System.Drawing.Point(3, 104);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(55, 22);
+            this.label14.Size = new System.Drawing.Size(56, 22);
             this.label14.TabIndex = 27;
             // 
             // label16
@@ -302,9 +302,9 @@
             // 
             this.lblDrug4City3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblDrug4City3.Font = new System.Drawing.Font("Humanst521 BT", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDrug4City3.Location = new System.Drawing.Point(64, 104);
+            this.lblDrug4City3.Location = new System.Drawing.Point(65, 104);
             this.lblDrug4City3.Name = "lblDrug4City3";
-            this.lblDrug4City3.Size = new System.Drawing.Size(84, 22);
+            this.lblDrug4City3.Size = new System.Drawing.Size(85, 22);
             this.lblDrug4City3.TabIndex = 31;
             this.lblDrug4City3.Text = "_drug_4";
             this.lblDrug4City3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -348,7 +348,7 @@
             this.label24.AutoSize = true;
             this.label24.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label24.ForeColor = System.Drawing.Color.Teal;
-            this.label24.Location = new System.Drawing.Point(874, 4);
+            this.label24.Location = new System.Drawing.Point(851, 4);
             this.label24.Name = "label24";
             this.label24.Size = new System.Drawing.Size(49, 15);
             this.label24.TabIndex = 39;
@@ -360,7 +360,7 @@
             this.label23.AutoSize = true;
             this.label23.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label23.ForeColor = System.Drawing.Color.Teal;
-            this.label23.Location = new System.Drawing.Point(619, 4);
+            this.label23.Location = new System.Drawing.Point(603, 4);
             this.label23.Name = "label23";
             this.label23.Size = new System.Drawing.Size(69, 15);
             this.label23.TabIndex = 38;
@@ -372,7 +372,7 @@
             this.label22.AutoSize = true;
             this.label22.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label22.ForeColor = System.Drawing.Color.Teal;
-            this.label22.Location = new System.Drawing.Point(367, 4);
+            this.label22.Location = new System.Drawing.Point(358, 4);
             this.label22.Name = "label22";
             this.label22.Size = new System.Drawing.Size(72, 15);
             this.label22.TabIndex = 37;
@@ -393,7 +393,7 @@
             this.TableLayoutPanel2.Controls.Add(this.label15, 0, 0);
             this.TableLayoutPanel2.Controls.Add(this.lblDrug4, 1, 7);
             this.TableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.TableLayoutPanel2.Location = new System.Drawing.Point(874, 174);
+            this.TableLayoutPanel2.Location = new System.Drawing.Point(851, 174);
             this.TableLayoutPanel2.Name = "TableLayoutPanel2";
             this.TableLayoutPanel2.RowCount = 11;
             this.TableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
@@ -407,7 +407,7 @@
             this.TableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 56F));
             this.TableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.TableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.TableLayoutPanel2.Size = new System.Drawing.Size(151, 151);
+            this.TableLayoutPanel2.Size = new System.Drawing.Size(153, 151);
             this.TableLayoutPanel2.TabIndex = 17;
             // 
             // lblDrug3
@@ -415,9 +415,9 @@
             this.lblDrug3.AutoSize = true;
             this.lblDrug3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblDrug3.Font = new System.Drawing.Font("Humanst521 BT", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDrug3.Location = new System.Drawing.Point(65, 76);
+            this.lblDrug3.Location = new System.Drawing.Point(66, 76);
             this.lblDrug3.Name = "lblDrug3";
-            this.lblDrug3.Size = new System.Drawing.Size(83, 20);
+            this.lblDrug3.Size = new System.Drawing.Size(84, 20);
             this.lblDrug3.TabIndex = 25;
             this.lblDrug3.Text = "_drug_3";
             this.lblDrug3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -427,9 +427,9 @@
             this.lblDrug2.AutoSize = true;
             this.lblDrug2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblDrug2.Font = new System.Drawing.Font("Humanst521 BT", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDrug2.Location = new System.Drawing.Point(65, 48);
+            this.lblDrug2.Location = new System.Drawing.Point(66, 48);
             this.lblDrug2.Name = "lblDrug2";
-            this.lblDrug2.Size = new System.Drawing.Size(83, 20);
+            this.lblDrug2.Size = new System.Drawing.Size(84, 20);
             this.lblDrug2.TabIndex = 23;
             this.lblDrug2.Text = "_drug_2";
             this.lblDrug2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -439,9 +439,9 @@
             this.lblDrug1.AutoSize = true;
             this.lblDrug1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblDrug1.Font = new System.Drawing.Font("Humanst521 BT", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDrug1.Location = new System.Drawing.Point(65, 20);
+            this.lblDrug1.Location = new System.Drawing.Point(66, 20);
             this.lblDrug1.Name = "lblDrug1";
-            this.lblDrug1.Size = new System.Drawing.Size(83, 20);
+            this.lblDrug1.Size = new System.Drawing.Size(84, 20);
             this.lblDrug1.TabIndex = 21;
             this.lblDrug1.Text = "_drug_1";
             this.lblDrug1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -453,7 +453,7 @@
             this.Label1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Label1.Location = new System.Drawing.Point(3, 20);
             this.Label1.Name = "Label1";
-            this.Label1.Size = new System.Drawing.Size(56, 20);
+            this.Label1.Size = new System.Drawing.Size(57, 20);
             this.Label1.TabIndex = 16;
             // 
             // Label5
@@ -463,7 +463,7 @@
             this.Label5.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Label5.Location = new System.Drawing.Point(3, 76);
             this.Label5.Name = "Label5";
-            this.Label5.Size = new System.Drawing.Size(56, 20);
+            this.Label5.Size = new System.Drawing.Size(57, 20);
             this.Label5.TabIndex = 20;
             // 
             // Label3
@@ -473,7 +473,7 @@
             this.Label3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Label3.Location = new System.Drawing.Point(3, 48);
             this.Label3.Name = "Label3";
-            this.Label3.Size = new System.Drawing.Size(56, 20);
+            this.Label3.Size = new System.Drawing.Size(57, 20);
             this.Label3.TabIndex = 18;
             // 
             // Label12
@@ -483,7 +483,7 @@
             this.Label12.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Label12.Location = new System.Drawing.Point(3, 104);
             this.Label12.Name = "Label12";
-            this.Label12.Size = new System.Drawing.Size(56, 20);
+            this.Label12.Size = new System.Drawing.Size(57, 20);
             this.Label12.TabIndex = 27;
             // 
             // label15
@@ -501,9 +501,9 @@
             // 
             this.lblDrug4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblDrug4.Font = new System.Drawing.Font("Humanst521 BT", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDrug4.Location = new System.Drawing.Point(65, 104);
+            this.lblDrug4.Location = new System.Drawing.Point(66, 104);
             this.lblDrug4.Name = "lblDrug4";
-            this.lblDrug4.Size = new System.Drawing.Size(83, 20);
+            this.lblDrug4.Size = new System.Drawing.Size(84, 20);
             this.lblDrug4.TabIndex = 29;
             this.lblDrug4.Text = "_drug_4";
             // 
@@ -516,7 +516,7 @@
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 28.07874F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 29.61893F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 29.97435F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 156F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 157F));
             this.tableLayoutPanel1.Controls.Add(this.lblCity3, 1, 3);
             this.tableLayoutPanel1.Controls.Add(this.lblCity2, 1, 2);
             this.tableLayoutPanel1.Controls.Add(this.lblCity1, 1, 1);
@@ -544,7 +544,7 @@
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 31.95652F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 24F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(1028, 497);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(1007, 497);
             this.tableLayoutPanel1.TabIndex = 3;
             // 
             // tableLayoutPanel3
@@ -563,7 +563,7 @@
             this.tableLayoutPanel3.Controls.Add(this.label16, 0, 0);
             this.tableLayoutPanel3.Controls.Add(this.lblDrug4City3, 1, 7);
             this.tableLayoutPanel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel3.Location = new System.Drawing.Point(874, 331);
+            this.tableLayoutPanel3.Location = new System.Drawing.Point(851, 331);
             this.tableLayoutPanel3.Name = "tableLayoutPanel3";
             this.tableLayoutPanel3.RowCount = 11;
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
@@ -577,7 +577,7 @@
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 54F));
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel3.Size = new System.Drawing.Size(151, 137);
+            this.tableLayoutPanel3.Size = new System.Drawing.Size(153, 137);
             this.tableLayoutPanel3.TabIndex = 34;
             // 
             // label20
@@ -586,7 +586,7 @@
             this.label20.AutoSize = true;
             this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label20.ForeColor = System.Drawing.Color.Teal;
-            this.label20.Location = new System.Drawing.Point(128, 4);
+            this.label20.Location = new System.Drawing.Point(125, 4);
             this.label20.Name = "label20";
             this.label20.Size = new System.Drawing.Size(67, 15);
             this.label20.TabIndex = 35;
@@ -599,7 +599,7 @@
             legend1.Enabled = false;
             legend1.Name = "Legend1";
             this.chart1.Legends.Add(legend1);
-            this.chart1.Location = new System.Drawing.Point(128, 26);
+            this.chart1.Location = new System.Drawing.Point(125, 26);
             this.chart1.Name = "chart1";
             series1.ChartArea = "ChartArea1";
             series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
@@ -638,7 +638,7 @@
             this.chart1.Series.Add(series2);
             this.chart1.Series.Add(series3);
             this.chart1.Series.Add(series4);
-            this.chart1.Size = new System.Drawing.Size(233, 142);
+            this.chart1.Size = new System.Drawing.Size(227, 142);
             this.chart1.TabIndex = 47;
             this.chart1.Text = "chart1";
             // 
@@ -650,7 +650,7 @@
             legend2.Enabled = false;
             legend2.Name = "Legend1";
             this.chart3.Legends.Add(legend2);
-            this.chart3.Location = new System.Drawing.Point(128, 331);
+            this.chart3.Location = new System.Drawing.Point(125, 331);
             this.chart3.Name = "chart3";
             series5.ChartArea = "ChartArea1";
             series5.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Doughnut;
@@ -661,7 +661,7 @@
             series5.Points.Add(dataPoint23);
             series5.Points.Add(dataPoint24);
             this.chart3.Series.Add(series5);
-            this.chart3.Size = new System.Drawing.Size(233, 137);
+            this.chart3.Size = new System.Drawing.Size(227, 137);
             this.chart3.TabIndex = 49;
             this.chart3.Text = "chart3";
             // 
@@ -673,7 +673,7 @@
             legend3.Enabled = false;
             legend3.Name = "Legend1";
             this.chart4.Legends.Add(legend3);
-            this.chart4.Location = new System.Drawing.Point(367, 331);
+            this.chart4.Location = new System.Drawing.Point(358, 331);
             this.chart4.Name = "chart4";
             series6.ChartArea = "ChartArea1";
             series6.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Doughnut;
@@ -684,7 +684,7 @@
             series6.Points.Add(dataPoint27);
             series6.Points.Add(dataPoint28);
             this.chart4.Series.Add(series6);
-            this.chart4.Size = new System.Drawing.Size(246, 137);
+            this.chart4.Size = new System.Drawing.Size(239, 137);
             this.chart4.TabIndex = 50;
             this.chart4.Text = "chart4";
             // 
@@ -696,7 +696,7 @@
             legend4.Enabled = false;
             legend4.Name = "Legend1";
             this.chart5.Legends.Add(legend4);
-            this.chart5.Location = new System.Drawing.Point(619, 331);
+            this.chart5.Location = new System.Drawing.Point(603, 331);
             this.chart5.Name = "chart5";
             series7.ChartArea = "ChartArea1";
             series7.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Doughnut;
@@ -707,7 +707,7 @@
             series7.Points.Add(dataPoint31);
             series7.Points.Add(dataPoint32);
             this.chart5.Series.Add(series7);
-            this.chart5.Size = new System.Drawing.Size(249, 137);
+            this.chart5.Size = new System.Drawing.Size(242, 137);
             this.chart5.TabIndex = 51;
             this.chart5.Text = "chart5";
             // 
@@ -719,7 +719,7 @@
             legend5.Enabled = false;
             legend5.Name = "Legend1";
             this.chart2.Legends.Add(legend5);
-            this.chart2.Location = new System.Drawing.Point(128, 174);
+            this.chart2.Location = new System.Drawing.Point(125, 174);
             this.chart2.Name = "chart2";
             series8.ChartArea = "ChartArea1";
             series8.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Pie;
@@ -730,7 +730,7 @@
             series8.Points.Add(dataPoint35);
             series8.Points.Add(dataPoint36);
             this.chart2.Series.Add(series8);
-            this.chart2.Size = new System.Drawing.Size(233, 151);
+            this.chart2.Size = new System.Drawing.Size(227, 151);
             this.chart2.TabIndex = 52;
             this.chart2.Text = "chart2";
             // 
@@ -742,7 +742,7 @@
             legend6.Enabled = false;
             legend6.Name = "Legend1";
             this.chart6.Legends.Add(legend6);
-            this.chart6.Location = new System.Drawing.Point(367, 174);
+            this.chart6.Location = new System.Drawing.Point(358, 174);
             this.chart6.Name = "chart6";
             series9.ChartArea = "ChartArea1";
             series9.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Pie;
@@ -753,7 +753,7 @@
             series9.Points.Add(dataPoint39);
             series9.Points.Add(dataPoint40);
             this.chart6.Series.Add(series9);
-            this.chart6.Size = new System.Drawing.Size(246, 151);
+            this.chart6.Size = new System.Drawing.Size(239, 151);
             this.chart6.TabIndex = 53;
             this.chart6.Text = "chart6";
             // 
@@ -765,7 +765,7 @@
             legend7.Enabled = false;
             legend7.Name = "Legend1";
             this.chart7.Legends.Add(legend7);
-            this.chart7.Location = new System.Drawing.Point(619, 174);
+            this.chart7.Location = new System.Drawing.Point(603, 174);
             this.chart7.Name = "chart7";
             series10.ChartArea = "ChartArea1";
             series10.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Pie;
@@ -776,7 +776,7 @@
             series10.Points.Add(dataPoint43);
             series10.Points.Add(dataPoint44);
             this.chart7.Series.Add(series10);
-            this.chart7.Size = new System.Drawing.Size(249, 151);
+            this.chart7.Size = new System.Drawing.Size(242, 151);
             this.chart7.TabIndex = 54;
             this.chart7.Text = "chart7";
             // 
@@ -787,7 +787,7 @@
             legend8.Enabled = false;
             legend8.Name = "Legend1";
             this.chart8.Legends.Add(legend8);
-            this.chart8.Location = new System.Drawing.Point(367, 26);
+            this.chart8.Location = new System.Drawing.Point(358, 26);
             this.chart8.Name = "chart8";
             series11.ChartArea = "ChartArea1";
             series11.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
@@ -826,7 +826,7 @@
             this.chart8.Series.Add(series12);
             this.chart8.Series.Add(series13);
             this.chart8.Series.Add(series14);
-            this.chart8.Size = new System.Drawing.Size(246, 142);
+            this.chart8.Size = new System.Drawing.Size(239, 142);
             this.chart8.TabIndex = 55;
             this.chart8.Text = "chart8";
             // 
@@ -837,7 +837,7 @@
             legend9.Enabled = false;
             legend9.Name = "Legend1";
             this.chart9.Legends.Add(legend9);
-            this.chart9.Location = new System.Drawing.Point(619, 26);
+            this.chart9.Location = new System.Drawing.Point(603, 26);
             this.chart9.Name = "chart9";
             series15.ChartArea = "ChartArea1";
             series15.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
@@ -876,7 +876,7 @@
             this.chart9.Series.Add(series16);
             this.chart9.Series.Add(series17);
             this.chart9.Series.Add(series18);
-            this.chart9.Size = new System.Drawing.Size(249, 142);
+            this.chart9.Size = new System.Drawing.Size(242, 142);
             this.chart9.TabIndex = 56;
             this.chart9.Text = "chart9";
             // 
@@ -887,6 +887,7 @@
             this.Controls.Add(this.tableLayoutPanel1);
             this.Name = "UserDashboard";
             this.Size = new System.Drawing.Size(1020, 501);
+            this.Load += new System.EventHandler(this.UserDashboard_Load);
             this.TableLayoutPanel2.ResumeLayout(false);
             this.TableLayoutPanel2.PerformLayout();
             this.tableLayoutPanel1.ResumeLayout(false);

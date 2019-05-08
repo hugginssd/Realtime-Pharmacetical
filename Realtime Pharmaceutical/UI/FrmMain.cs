@@ -27,6 +27,8 @@ namespace Realtime_Pharmaceutical
         {
             sidePanel.Location = new Point(0, 147);
             sidePanel.BringToFront();
+            userNewOrders.Visible = true;
+            userNewOrders.BringToFront();
         }
 
         private void BtnCustomers_Click(object sender, EventArgs e)
@@ -75,6 +77,9 @@ namespace Realtime_Pharmaceutical
         {
             sidePanel.Location = new Point(0, 97);
             sidePanel.BringToFront();
+            userDashboard.Visible = true;
+            userDashboard.BringToFront();
+            userNewOrders.Visible = false;
         }
     }
 }

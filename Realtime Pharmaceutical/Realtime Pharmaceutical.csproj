@@ -157,6 +157,9 @@
     <EmbeddedResource Include="UI\UserNewOrders.resx">
       <DependentUpon>UserNewOrders.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="UI\UserNewProducts.resx">
+      <DependentUpon>UserNewProducts.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

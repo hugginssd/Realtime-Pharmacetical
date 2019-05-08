@@ -144,7 +144,9 @@
             this.Controls.Add(this.txtUsername);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel2);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FrmSignIn";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmSignIn";
             this.Load += new System.EventHandler(this.FrmSignIn_Load);
             this.panel1.ResumeLayout(false);
