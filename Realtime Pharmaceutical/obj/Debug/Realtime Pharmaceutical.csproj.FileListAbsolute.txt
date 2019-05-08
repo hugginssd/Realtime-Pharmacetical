@@ -20,3 +20,4 @@ C:\Users\user\source\repos\Realtime Pharmaceutical\Realtime Pharmaceutical\obj\D
 C:\Users\user\source\repos\Realtime Pharmaceutical\Realtime Pharmaceutical\obj\Debug\Realtime Pharmaceutical.pdb
 C:\Users\user\source\repos\Realtime Pharmaceutical\Realtime Pharmaceutical\obj\Debug\Realtime_Pharmaceutical.UI.FrmSignIn.resources
 C:\Users\user\source\repos\Realtime Pharmaceutical\Realtime Pharmaceutical\obj\Debug\Realtime_Pharmaceutical.UI.UserNewProducts.resources
+C:\Users\user\source\repos\Realtime Pharmaceutical\Realtime Pharmaceutical\obj\Debug\Realtime_Pharmaceutical.UI.UserNewSystemUsers.resources
