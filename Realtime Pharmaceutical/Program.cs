@@ -17,7 +17,7 @@ namespace Realtime_Pharmaceutical
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FrmSignIn());
+            Application.Run(new FrmSignIn ());
         }
     }
 }

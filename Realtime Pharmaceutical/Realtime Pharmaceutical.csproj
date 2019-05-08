@@ -32,6 +32,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>Realtime_Pharmaceutical.Program</StartupObject>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="CheckComboBox, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Common.CheckComboBox.1.0.0\lib\CheckComboBox.dll</HintPath>
