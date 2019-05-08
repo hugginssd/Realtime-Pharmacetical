@@ -34,6 +34,7 @@ namespace Realtime_Pharmaceutical.DAL
                 cmd.Parameters.AddWithValue("@ADDRESS", cbll.Address);
                 cmd.Parameters.AddWithValue("@CONTACT", cbll.Contact);
                 cmd.Parameters.AddWithValue("@TYPE", cbll.Type);
+                con.Open();
                 int i = cmd.ExecuteNonQuery();
                 if (i > 0)
                 {
@@ -66,6 +67,7 @@ namespace Realtime_Pharmaceutical.DAL
             try
             {
                 SqlCommand cmd = new SqlCommand(sql, con);
+                con.Open();
                 SqlDataAdapter da = new SqlDataAdapter(cmd);
                 dt = new DataTable();
                 da.Fill(dt);

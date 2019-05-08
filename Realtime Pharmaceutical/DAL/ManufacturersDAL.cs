@@ -31,6 +31,7 @@ namespace Realtime_Pharmaceutical.DAL
                 cmd.Parameters.AddWithValue("@MANNAME", mbll.ManufacturerName);
                 cmd.Parameters.AddWithValue("@MANLICENSE", mbll.ManufacturerLicense);
                 cmd.Parameters.AddWithValue("@ADDRESS", mbll.Address);
+                con.Open();
                 int i = cmd.ExecuteNonQuery();
                 if (i > 0)
                 {
@@ -63,6 +64,7 @@ namespace Realtime_Pharmaceutical.DAL
             try
             {
                 SqlCommand cmd = new SqlCommand(sql, con);
+                con.Open();
                 SqlDataAdapter da = new SqlDataAdapter(cmd);
                 da.Fill(dt);
             }

@@ -52,6 +52,7 @@ namespace Realtime_Pharmaceutical.DAL
                 cmd.Parameters.AddWithValue("@DISCOUNT", odbll.OrderDate);
                 cmd.Parameters.AddWithValue("@STATUS", odbll.Status);
                 cmd.Parameters.AddWithValue("@COMMENT", odbll.Comment);
+                con.Open();
                 int i = cmd.ExecuteNonQuery();
                 if (i > 0)
                 {
@@ -90,6 +91,7 @@ namespace Realtime_Pharmaceutical.DAL
             try
             {
                 SqlCommand cmd = new SqlCommand(sql, con);
+                con.Open();
                 dt = new DataTable();
                 SqlDataAdapter da = new SqlDataAdapter(cmd);
                 da.Fill(dt);
@@ -119,6 +121,7 @@ namespace Realtime_Pharmaceutical.DAL
                                 ",[TYPE]" +
                             "FROM[dbo].[Customers]";
                 SqlCommand cmd = new SqlCommand(sql, con);
+                con.Open();
                 dr = cmd.ExecuteReader();
                 while (dr.HasRows)
                 {
@@ -134,6 +137,7 @@ namespace Realtime_Pharmaceutical.DAL
             }
             finally
             {
+                
                 con.Close();
             }
             //users
@@ -148,6 +152,7 @@ namespace Realtime_Pharmaceutical.DAL
                                       ",[PASSWORD]"+
                                   "FROM[dbo].[Users]";
                 SqlCommand cmd = new SqlCommand(sql, con);
+                con.Open();
                 dr = cmd.ExecuteReader();
                 SiteSource.Clear();
                 while (dr.HasRows)

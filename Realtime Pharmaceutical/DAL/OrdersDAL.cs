@@ -33,6 +33,7 @@ namespace Realtime_Pharmaceutical.DAL
                 cmd.Parameters.AddWithValue("@PRODUCTID", obll.ProductID);
                 cmd.Parameters.AddWithValue("@QUANTITY", obll.QuantityOrdered);
                 cmd.Parameters.AddWithValue("@PRICEEACH", obll.PriceEach);
+                con.Open();
                 int i = cmd.ExecuteNonQuery();
                 if (i > 0)
                 {
