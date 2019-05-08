@@ -128,8 +128,8 @@ namespace Realtime_Pharmaceutical.DAL
                     SiteSource.Add(Convert.ToInt32(dr["CUSTOMERID"]), dr["CUSTOMERNAME"].ToString());
                 }
                 cmb.DataSource = new BindingSource(SiteSource, null);
-                cmb.DisplayMember = "Value";
-                cmb.ValueMember = "Key";
+                cmb.DisplayMember = "Key";
+                cmb.ValueMember = "Value";
             }
             catch (Exception ex)
             {
@@ -160,8 +160,8 @@ namespace Realtime_Pharmaceutical.DAL
                     SiteSource.Add(Convert.ToInt32(dr["USERID"]), dr["USERNAME"].ToString());
                 }
                 cmb1.DataSource = new BindingSource(SiteSource, null);
-                cmb1.DisplayMember = "Value";
-                cmb1.ValueMember = "Key";
+                cmb1.DisplayMember = "Key";
+                cmb1.ValueMember = "Value";
             }
             catch (Exception ex)
             {

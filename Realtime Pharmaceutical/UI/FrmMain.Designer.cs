@@ -31,7 +31,6 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.sidePanel = new System.Windows.Forms.Panel();
-            this.BtnInvoices = new System.Windows.Forms.Button();
             this.BtnPayments = new System.Windows.Forms.Button();
             this.BtnProducts = new System.Windows.Forms.Button();
             this.BtnCustomers = new System.Windows.Forms.Button();
@@ -98,22 +97,6 @@
             this.sidePanel.Size = new System.Drawing.Size(10, 47);
             this.sidePanel.TabIndex = 2;
             // 
-            // BtnInvoices
-            // 
-            this.BtnInvoices.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.BtnInvoices.FlatAppearance.BorderSize = 0;
-            this.BtnInvoices.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnInvoices.Font = new System.Drawing.Font("Humanst521 BT", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnInvoices.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.BtnInvoices.Location = new System.Drawing.Point(0, 344);
-            this.BtnInvoices.Name = "BtnInvoices";
-            this.BtnInvoices.Size = new System.Drawing.Size(200, 47);
-            this.BtnInvoices.TabIndex = 7;
-            this.BtnInvoices.Text = "INVOICES";
-            this.BtnInvoices.UseVisualStyleBackColor = true;
-            this.BtnInvoices.Click += new System.EventHandler(this.BtnInvoices_Click);
-            // 
             // BtnPayments
             // 
             this.BtnPayments.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
@@ -170,7 +153,7 @@
             this.BtnSystemUsers.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnSystemUsers.Font = new System.Drawing.Font("Humanst521 BT", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnSystemUsers.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.BtnSystemUsers.Location = new System.Drawing.Point(0, 394);
+            this.BtnSystemUsers.Location = new System.Drawing.Point(0, 346);
             this.BtnSystemUsers.Name = "BtnSystemUsers";
             this.BtnSystemUsers.Size = new System.Drawing.Size(201, 47);
             this.BtnSystemUsers.TabIndex = 3;
@@ -230,7 +213,6 @@
             this.panel1.Controls.Add(this.pictureBox3);
             this.panel1.Controls.Add(this.BtnSystemUsers);
             this.panel1.Controls.Add(this.sidePanel);
-            this.panel1.Controls.Add(this.BtnInvoices);
             this.panel1.Controls.Add(this.BtnPayments);
             this.panel1.Controls.Add(this.BtnProducts);
             this.panel1.Controls.Add(this.BtnCustomers);
@@ -252,7 +234,7 @@
             this.btnExit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnExit.Font = new System.Drawing.Font("Humanst521 BT", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnExit.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnExit.Location = new System.Drawing.Point(0, 444);
+            this.btnExit.Location = new System.Drawing.Point(0, 396);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(200, 47);
             this.btnExit.TabIndex = 8;
@@ -439,7 +421,6 @@
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.Panel sidePanel;
-        private System.Windows.Forms.Button BtnInvoices;
         private System.Windows.Forms.Button BtnPayments;
         private System.Windows.Forms.Button BtnProducts;
         private System.Windows.Forms.Button BtnCustomers;
