@@ -68,6 +68,7 @@
     <Compile Include="BLL\ManufacturersBLL.cs" />
     <Compile Include="BLL\OrderDetailsBLL.cs" />
     <Compile Include="BLL\OrdersBLL.cs" />
+    <Compile Include="BLL\ProductsBLL.cs" />
     <Compile Include="DAL\Connection.cs" />
     <Compile Include="DAL\CustomersDAL.cs" />
     <Compile Include="DAL\Functions.cs" />
@@ -75,6 +76,7 @@
     <Compile Include="DAL\OrderDetailsDAL.cs" />
     <Compile Include="DAL\OrdersDAL.cs" />
     <Compile Include="BLL\UserBLL.cs" />
+    <Compile Include="DAL\ProductsDAL.cs" />
     <Compile Include="DAL\UserDAL.cs" />
     <Compile Include="UI\FrmMain.cs">
       <SubType>Form</SubType>
