@@ -44,5 +44,10 @@ namespace Realtime_Pharmaceutical.DAL
 
             return MAX_ID;
         }
+
+        //Revenue sales-volume variance
+        
+        //Sales price variance
+
     }
 }
