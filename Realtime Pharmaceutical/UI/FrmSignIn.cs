@@ -40,7 +40,7 @@ namespace Realtime_Pharmaceutical.UI
 
         private void BtnCancel_Click(object sender, EventArgs e)
         {
-
+            Application.Exit();
         }
 
         private void FrmSignIn_Load(object sender, EventArgs e)
