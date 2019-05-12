@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  realtimeapi:
+    image: realtimeapi
+    build:
+      context: .
+      dockerfile: Realtime\Dockerfile

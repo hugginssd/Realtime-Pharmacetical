@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.27428.2015
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Realtime Pharmaceutical", "Realtime Pharmaceutical\Realtime Pharmaceutical.csproj", "{25254E27-0B8A-4C00-BD0B-B315B9D19A0C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Realtime API", "Realtime\Realtime API.csproj", "{20AD749D-FF8D-4CC5-9EA8-F82F815C8306}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{0741AC35-8C28-4816-AF04-6B73FBBEDD40}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{25254E27-0B8A-4C00-BD0B-B315B9D19A0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{25254E27-0B8A-4C00-BD0B-B315B9D19A0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{25254E27-0B8A-4C00-BD0B-B315B9D19A0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20AD749D-FF8D-4CC5-9EA8-F82F815C8306}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20AD749D-FF8D-4CC5-9EA8-F82F815C8306}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20AD749D-FF8D-4CC5-9EA8-F82F815C8306}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20AD749D-FF8D-4CC5-9EA8-F82F815C8306}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0741AC35-8C28-4816-AF04-6B73FBBEDD40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0741AC35-8C28-4816-AF04-6B73FBBEDD40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0741AC35-8C28-4816-AF04-6B73FBBEDD40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0741AC35-8C28-4816-AF04-6B73FBBEDD40}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
